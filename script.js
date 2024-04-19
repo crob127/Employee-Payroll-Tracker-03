@@ -11,11 +11,9 @@ const collectEmployees = function() {
     console.log() // incase something goes wrong
 
     let lastName = prompt("Enter Last Name:");
-    if (!lastName) break;
     console.log()
 
     let salary = prompt("Enter Salary:");
-    if(!salary) break;
     salary = Number(salary)   // convert from a string to number
     console.log()
 
@@ -30,20 +28,22 @@ const collectEmployees = function() {
 }
 
 // Display the average salary
-const displayAverageSalary = function() {
+const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
   let sum=0;
   for (let i=0; i < employeesArray.length; i++) {
     sum += employeesArray[i].salary;  
   }
   const averageSalary = sum / employeesArray.length
-  console.log(averageSalary);
+  console.log("The average salary is: $" + averageSalary);
 }
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  alert(JSON.stringify(employeesArray[Math.floor(Math.random()*employeesArray.length)]))
 }
+console.log(window)
 
 /*
   ====================
