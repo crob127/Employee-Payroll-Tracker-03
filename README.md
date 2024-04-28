@@ -3,20 +3,22 @@ Description
 
 The Employee Payroll Tracker is a web application designed to help manage and display employee salary data. It allows users to input employee information such as first name, last name, and salary, and provides functionalities such as calculating the average salary, displaying a randomly selected employee, and sorting employees by their last name.
 
-Features
+## Features
 
 Add Employees: Allows the user to continuously add employee data until they decide to stop.
 Calculate Average Salary: Computes the average salary of all entered employees and displays it.
 Display Random Employee: Randomly selects an employee from the list and displays their details.
 Sort Employees: Sorts the employee list by last name and displays it in a structured table format.
-Technologies
+
+## Technologies
 
 HTML
 CSS
 JavaScript
 Setup and Usage
 
-Initial Setup:
+## Initial Setup:
+
 Ensure that you have a modern web browser installed (e.g., Chrome, Firefox, Edge).
 Download the project files to your local machine.
 Running the Application:
@@ -28,7 +30,8 @@ Enter the first name, last name, and salary for each employee. Click 'Cancel' on
 Interacting with the Application:
 After adding employees, the application automatically calculates and displays the average salary.
 A random employee's details are shown, and the employee list is displayed in a table, sorted by last name.
-File Structure
+
+## File Structure
 
 index.html: Contains the HTML structure of the project.
 style.css: Provides styling for the HTML elements.
