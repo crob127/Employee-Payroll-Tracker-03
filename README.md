@@ -1,5 +1,6 @@
 # Employee-Payroll-Tracker-03
-Description
+
+## Description
 
 The Employee Payroll Tracker is a web application designed to help manage and display employee salary data. It allows users to input employee information such as first name, last name, and salary, and provides functionalities such as calculating the average salary, displaying a randomly selected employee, and sorting employees by their last name.
 
